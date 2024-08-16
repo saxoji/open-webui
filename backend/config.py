@@ -87,9 +87,7 @@ class EndpointFilter(logging.Filter):
 logging.getLogger("uvicorn.access").addFilter(EndpointFilter())
 
 
-WEBUI_NAME = os.environ.get("WEBUI_NAME", "Linkbricks Horizon-AI sLLM Webui")
-if WEBUI_NAME != "Linkbricks Horizon-AI sLLM Webui":
-    WEBUI_NAME += " (powered by Linkbricks)"
+WEBUI_NAME = os.environ.get("WEBUI_NAME", "Linkbricks Horizon-AI")
 
 WEBUI_URL = os.environ.get("WEBUI_URL", "http://localhost:3000")
 
