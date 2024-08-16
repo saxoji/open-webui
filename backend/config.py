@@ -93,7 +93,7 @@ if WEBUI_NAME != "Open WebUI":
 
 WEBUI_URL = os.environ.get("WEBUI_URL", "http://localhost:3000")
 
-WEBUI_FAVICON_URL = "https://openwebui.com/favicon.png"
+WEBUI_FAVICON_URL = "https://www.linkbricks.com/wp-content/uploads/2022/03/cropped-favicon-512-32x32.png"
 
 
 ####################################
